@@ -1,7 +1,7 @@
-// look at stating the text areas when save button is clicked, local storage
-// look at what hour it is, apply styling of past present or future
-// getting items out of local storage
 
+
+
+// look at stating the text areas when save button is clicked, local storage
 $(document).ready(function(){
 //    save button click
     $(".saveBtn").on("click", function(){
@@ -11,6 +11,7 @@ $(document).ready(function(){
         // puts items into storage
         localStorage.setItem(time, value);
     })
+    // look at what hour it is, apply styling of past present or future
     // manipulating classes based on what time it is
     function timeCheck(){
         var currentHour = moment().hours();
@@ -35,9 +36,9 @@ $(document).ready(function(){
     var interval = setInterval(timeCheck, 60000);
     // dispay current date into hour heading
     $("#currentDay").text(moment().format("dddd, MMMM Do"));
-
+    
+    // getting items out of local storage
     // get data out of local storage when the page is loaded
-    // duplicate line 41 for all timeblock hours
     $("#6 .description").val(localStorage.getItem("6"));
     $("#7 .description").val(localStorage.getItem("7"));
     $("#8 .description").val(localStorage.getItem("8"));
@@ -51,8 +52,3 @@ $(document).ready(function(){
     $("#16 .description").val(localStorage.getItem("16"));
 }) 
 
-// timecheck funcition is not changing color, not picking up the classes.
-// text areas need to be smaller
-//  save icons are gone at certian screen widths
-// local storage save
-// time is not showing up

@@ -18,7 +18,7 @@
       href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./style.css" />
     <title>Work Day Scheduler</title>
   </head>
 
@@ -29,145 +29,101 @@
       <p id="currentDay" class="lead"></p>
     </header>
     <div class="container">
-      <!-- Timeblocks go here -->
+      <!-- timeblocks -->
       <div class="time-block row" id="6">
-        <p class="hour col-md-1">6 AM</p>
-        <textarea class="col-md-10 description" ></textarea>
-          <button class="saveBtn btn col-md-1">
-            <!-- imports a save icon from font awesome -->
-            <i class="fas fa-save"></i>
-          </button>
+        <div class="hour col-md-1">6 AM</div>
+        <textarea class="col-md-10 description " ></textarea>
+        <!-- must be a div and must be inline otherwise savebutton in wrong position, color leak to hour column, and text box expands too big when pressed on-->
+          <button class="saveBtn btn col-md-1"><i class="fas fa-save"></i></button>
       </div>
 
       <div class="time-block row" id="7">
-        <p class="hour col-md-1">7 AM</p>
-        <textarea class="col-md-10 description" ></textarea>
-          <button class="saveBtn btn col-md-1">
-            <!-- imports a save icon from font awesome -->
-            <i class="fas fa-save"></i>
-          </button>
+        <div class="hour col-md-1">7 AM</div>
+        <textarea class="col-md-10 description " ></textarea>
+          <button class="saveBtn btn col-md-1"><i class="fas fa-save"></i></button>
       </div>
       
       <div class="time-block row" id="8">
-        <p class="hour col-md-1">8 AM</p>
+        <div class="hour col-md-1">8 AM</div>
         <textarea class="col-md-10 description" ></textarea>
-          <button class="saveBtn btn col-md-1">
-            <!-- imports a save icon from font awesome -->
-            <i class="fas fa-save"></i>
-          </button>
+          <button class="saveBtn btn col-md-1"><i class="fas fa-save"></i></button>
       </div>
 
       <div class="time-block row" id="9">
-        <p class="hour col-md-1">9 AM</p>
+        <div class="hour col-md-1">9 AM</div>
         <textarea class="col-md-10 description" ></textarea>
-          <button class="saveBtn btn col-md-1">
-            <!-- imports a save icon from font awesome -->
-            <i class="fas fa-save"></i>
-          </button>
+          <button class="saveBtn btn col-md-1"><i class="fas fa-save"></i></button>
       </div>
 
       <div class="time-block row" id="10">
-        <p class="hour col-md-1">10 AM</p>
+        <div class="hour col-md-1">10 AM</div>
         <textarea class="col-md-10 description" ></textarea>
-          <button class="saveBtn btn col-md-1">
-            <!-- imports a save icon from font awesome -->
-            <i class="fas fa-save"></i>
-          </button>
+          <button class="saveBtn btn col-md-1"><i class="fas fa-save"></i></button>
       </div>
 
       <div class="time-block row" id="11">
-        <p class="hour col-md-1">11 AM</p>
+        <div class="hour col-md-1">11 AM</div>
         <textarea class="col-md-10 description" ></textarea>
-          <button class="saveBtn btn col-md-1">
-            <!-- imports a save icon from font awesome -->
-            <i class="fas fa-save"></i>
-          </button>
+          <button class="saveBtn btn col-md-1"><i class="fas fa-save"></i></button>
       </div>
 
       <div class="time-block row" id="12">
-        <p class="hour col-md-1">12 PM</p>
+        <div class="hour col-md-1">12 PM</div>
         <textarea class="col-md-10 description" ></textarea>
-          <button class="saveBtn btn col-md-1">
-            <!-- imports a save icon from font awesome -->
-            <i class="fas fa-save"></i>
-          </button>
+          <button class="saveBtn btn col-md-1"><i class="fas fa-save"></i></button>
       </div>
 
       <div class="time-block row" id="13">
-        <p class="hour col-md-1">1 PM</p>
+        <div class="hour col-md-1">1 PM</div>
         <textarea class="col-md-10 description" ></textarea>
-          <button class="saveBtn btn col-md-1">
-            <!-- imports a save icon from font awesome -->
-            <i class="fas fa-save"></i>
-          </button>
+          <button class="saveBtn btn col-md-1"><i class="fas fa-save"></i></button>
       </div>
 
       <div class="time-block row" id="14">
-        <p class="hour col-md-1">2 PM</p>
+        <div class="hour col-md-1">2 PM</div>
         <textarea class="col-md-10 description" ></textarea>
-          <button class="saveBtn btn col-md-1">
-            <!-- imports a save icon from font awesome -->
-            <i class="fas fa-save"></i>
-          </button>
+          <button class="saveBtn btn col-md-1"><i class="fas fa-save"></i></button>
       </div>
 
       <div class="time-block row" id="15">
-        <p class="hour col-md-1">3 PM</p>
+        <div class="hour col-md-1">3 PM</div>
         <textarea class="col-md-10 description" ></textarea>
-          <button class="saveBtn btn col-md-1">
-            <!-- imports a save icon from font awesome -->
-            <i class="fas fa-save"></i>
-          </button>
+          <button class="saveBtn btn col-md-1"><i class="fas fa-save"></i></button>
       </div>
 
       <div class="time-block row" id="16">
-        <p class="hour col-md-1">4 PM</p>
+        <div class="hour col-md-1">4 PM</div>
         <textarea class="col-md-10 description" ></textarea>
-          <button class="saveBtn btn col-md-1">
-            <!-- imports a save icon from font awesome -->
-            <i class="fas fa-save"></i>
-          </button>
+          <button class="saveBtn btn col-md-1"><i class="fas fa-save"></i></button>
       </div>
 
       <div class="time-block row" id="17">
-        <p class="hour col-md-1">5 PM</p>
+        <div class="hour col-md-1">5 PM</div>
         <textarea class="col-md-10 description" ></textarea>
-          <button class="saveBtn btn col-md-1">
-            <!-- imports a save icon from font awesome -->
-            <i class="fas fa-save"></i>
-          </button>
+          <button class="saveBtn btn col-md-1"><i class="fas fa-save"></i></button>
       </div>
 
       <div class="time-block row" id="18">
-        <p class="hour col-md-1">6 PM</p>
+        <div class="hour col-md-1">6 PM</div>
         <textarea class="col-md-10 description" ></textarea>
-          <button class="saveBtn btn col-md-1">
-            <!-- imports a save icon from font awesome -->
-            <i class="fas fa-save"></i>
-          </button>
+          <button class="saveBtn btn col-md-1"><i class="fas fa-save"></i></button>
       </div>
 
       <div class="time-block row" id="19">
-        <p class="hour col-md-1">7 PM</p>
+        <div class="hour col-md-1">7 PM</div>
         <textarea class="col-md-10 description" ></textarea>
-          <button class="saveBtn btn col-md-1">
-            <!-- imports a save icon from font awesome -->
-            <i class="fas fa-save"></i>
-          </button>
+          <button class="saveBtn btn col-md-1"><i class="fas fa-save"></i></button>
       </div>
 
       <div class="time-block row" id="20">
-        <p class="hour col-md-1">8 PM</p>
+        <div class="hour col-md-1">8 PM</div>
         <textarea class="col-md-10 description" ></textarea>
-        <button class="saveBtn btn col-md-1">
-            <!-- imports a save icon from font awesome -->
-            <i class="fas fa-save"></i>
-        </button>
+        <button class="saveBtn btn col-md-1"><i class="fas fa-save"></i></button>
       </div>
     </div>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
-    <script src= "script.js"></script>
+    <script src= "./script.js"></script>
   </body>
 </html>
