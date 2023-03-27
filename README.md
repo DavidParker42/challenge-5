@@ -25,3 +25,4 @@ This is a calendar application that allows you to be able to save events for eac
   Third-Party APIs
 
   ## Github repository link
+  https://github.com/DavidParker42/module-5-challenge
